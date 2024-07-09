@@ -35,4 +35,17 @@ console.log(sortLowToHigh([5, 10, 0, -5]));
 console.log(sortLowToHigh([3, 2, 1, 0]));
 */
 
+/*
+function sortHighToLow(arrOfObjects){
 
+  return  arrOfObjects.sort((a, b) => b.price - a.price);
+
+}
+
+console.log(sortHighToLow([
+    {id: 1,price:50},
+    {id: 2,price:30},
+    {id: 3,price:60},
+    {id: 4,price:10},
+]))
+    */
