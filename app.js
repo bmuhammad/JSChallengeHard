@@ -49,3 +49,21 @@ console.log(sortHighToLow([
     {id: 4,price:10},
 ]))
     */
+
+/*async function postsByUser(userId) {
+  //  fetch("https://jsonplaceholder.typicode.com/posts")
+  // .then(res => console.log(res))
+  // console.log(userId);
+
+  const promise = await fetch("https://jsonplaceholder.typicode.com/posts");
+  
+  const result = await promise.json();
+  
+  const posts = result.filter(element => element.userId === userId);
+  
+  console.log(posts);
+}
+
+postsByUser(4);
+*/
+
