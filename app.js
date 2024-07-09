@@ -20,3 +20,19 @@
 console.log(showRating(3));
 console.log(showRating(4.5));
 console.log(showRating(0.5));*/
+
+/*
+function sortLowToHigh(arr) {
+  let sortedArray =  arr.sort((a, b) => a - b);
+ 
+  return sortedArray;
+}
+
+console.log(sortLowToHigh([20, 40, 10, 30, 50, 10]));
+
+console.log(sortLowToHigh([5, 10, 0, -5]));
+
+console.log(sortLowToHigh([3, 2, 1, 0]));
+*/
+
+
