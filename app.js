@@ -66,4 +66,13 @@ console.log(sortHighToLow([
 
 postsByUser(4);
 */
+/*
+async function firstSixIncomplete(){
+const promise =  await fetch("https://jsonplaceholder.typicode.com/todos");
+const result = await promise.json();
+const incompleteTasks = result.filter(element => !element.completed).slice(0, 6);
 
+console.log(incompleteTasks);
+}
+
+firstSixIncomplete(); */
